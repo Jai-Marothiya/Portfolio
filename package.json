@@ -1,7 +1,8 @@
 {
   "scripts": {
     "start": "vite",
-    "build": "parcel index.html"
+    "build": "parcel index.html",
+    "type": "module"
   },
   "devDependencies": {
     "autoprefixer": "^10.4.12",
