@@ -1,0 +1,12 @@
+@tailwind base;
+@tailwind components;
+
+.fitems {
+  @apply focus:text-[#daa49c] decoration-1 cursor-pointer text-[15px] text-white px-3 my-4 font-[Inter] font-light;
+}
+
+.show {
+  @apply block;
+}
+
+@tailwind utilities;
