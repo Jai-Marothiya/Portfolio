@@ -1,4 +1,4 @@
-let s = "Full Stack Software Developer",t="Competitive Programmer.",s1=0,flag = 0;
+let s = "Full Stack Software Developer....",t="Competitive Programmer....",s1=0,flag = 0;
 const length1 = s.length;
 const length2 = t.length;
 
@@ -11,11 +11,9 @@ setInterval(() => {
     if(s1==0){
         test=s.slice();
         length = length1;
-        console.log(test);
     }else{
         test=t.slice();
         length = length2;
-        console.log(test)
     }
     if(flag==0){
         if(i<length){
