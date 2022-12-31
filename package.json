@@ -1,7 +1,6 @@
 {
   "scripts": {
     "start": "vite",
-    "build": "parcel index.html",
     "type": "module"
   },
   "devDependencies": {
